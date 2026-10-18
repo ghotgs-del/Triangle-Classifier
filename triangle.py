@@ -1,6 +1,6 @@
 import math
 
-def is_valid_triangle(a, b, c):
+def is_valid_triangle(a, b, c): -> bool:
     """Return True if the given sides can form a valid triangle."""
     if a <= 0 or b <= 0 or c <= 0:
         return False
@@ -11,7 +11,7 @@ def is_valid_triangle(a, b, c):
         and b + c > a
     )
 
-def classify_triangle(a, b, c):
+def classify_triangle(a, b, c): -> str:
     """Return the type of triangle, or "Invalid" if it cannot be built."""
     if not is_valid_triangle(a, b, c):
         return "Invalid"
