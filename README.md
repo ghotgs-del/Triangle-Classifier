@@ -17,3 +17,11 @@
 
 3. **Reinforced corners:** When the sides form a right triangle, the program adds the classification with "Right" so the studio can identify pieces that need reinforced corners.
 
+
+## Running the Tests
+
+Run all the tests from the project folder using
+
+python3 -m pytest -v
+
+The tests should check triangle validity, triangle classifications, right triangles, and the stained-glass customer requirements.
